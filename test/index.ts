@@ -21,7 +21,7 @@ function getData() { };
     let errb = Errary.null;
     //console.log(errb);
 /* 任意类型 any*/
-    var oBox: any = document.getElementById("Box");
+    var oBox: any =  document.getElementById("Box");
     oBox.style.color = 'red';
 /* null,undefined类型*/
     var num:number | undefined;
