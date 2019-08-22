@@ -18,3 +18,18 @@
     // p.setName("json");
     
     // alert(p.getName());
+
+    //ts中实现继承 extends、super
+
+    class Person {
+        name:string;
+        constructor(name:string) {
+            this.name = name;
+            
+        }
+        run():string{
+            return `${this.name}在运动`
+        }
+    }
+    var p = new Person("jack");
+    alert(p.run());
