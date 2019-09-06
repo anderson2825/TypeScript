@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<!-- <link rel="stylesheet" href="./style/kugoo1.css"> -->
+	<meta name="viewport" content="initial-scale=1,width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+</head>
+<body>
+<style>
+.posr_w{position: relative; max-width: 1000px;}
+.bac_cover{background-size: cover; background-position: center;}
+.level_a{background-color: #e9d4b0; padding: 10px 0; text-align: center;}
+.level_a  span {font-size: 30px; font-weight: bold; color: #000;  display: block; margin: 0 auto;}
+.level_a  p{width: 63.2%; margin: 0 auto; font-size: 18px; line-height: 22px; color: #000; text-align: center;}
+.level_b .level_b_bg{padding-top: 32.9%; background-image: url(../kugoo1/image_pc/kugoo-s1-min.jpg);}
+.level_b .level_b_box span{font-size: 20px;font-weight: bold;}
+.level_b .level_b_box{width: 32%; position: absolute; }
+.level_b .level_b_box p{font-size: 16px; line-height: 22px; margin: 0; padding-top:10px;}
+.level_b .level_b_box1{left: 17.8%; top:11.69230769230769%;}
+.level_b .level_b_box3{left: 17.8%; top:56.23100303951368%;}
+.level_b .level_b_box2{left: 65.2%; top:11.69230769230769%;}
+.level_b .level_b_box4{left: 65.2%; top:56.23100303951368%;}
+.level_c_bg{padding-top:60.3%; background-image: url(../kugoo1/image_pc/kugoo-s2-min.jpg);}
+.level_d .level_d_txt{width: 52.6%; position: absolute; left: 3.6%; top: 7.6%; z-index: 2;}
+.level_d .level_d_txt span{font-size: 30px; font-weight: bold;}
+.level_d .level_d_txt p{font-size: 20px; line-height: 26px;padding-top: 8px; margin: 0;}
+.level_d_bg{padding-top:65%; background-image: url(../kugoo1/image_pc/kugoo-s3-min.jpg);}
+.level_e .level_e_txt{width: 42.6%; position: absolute; left:46.8%; top:12.18637992831541%; z-index: 2;}
+.level_e .level_e_txt span{font-size: 30px; color: #333; font-weight: bold; display: block;}
+.level_e .level_e_txt span.btn{font-weight: normal; width:36.15023474178404%; height:44px; border-radius: 22px; background-color: #333; color: #fff; margin:10px auto 0 auto; text-align: center;}
+.level_e .level_e_txt2 {width: 57.4%; position: absolute; color: #fff; font-size: 16px; left: 40.2%; bottom:15.41218637992832%; z-index: 2; margin: 0;}
+.level_e .level_e_txt2 dd{width:32.05574912891986%; text-align: center; height:42px; float: left; line-height:42px; margin-left: 0; margin-right: 10px; }
+.level_e_bg{padding-top:55.8%; background-image: url(../kugoo1/image_pc/kugoo-s4-min.jpg);}
+.level_f_bg{padding-top:50.9%; background-image: url(../kugoo1/image_pc/kugoo-s5-min.jpg);}
+.level_f span{font-size: 22px; color: #333; font-weight: bold;  position: absolute; left: 22.2%; top:24.75442043222004%;}
+.level_g_bg{padding-top:48.8%; background-image: url(../kugoo1/image_pc/kugoo-s6-min.jpg);}
+.level_g .level_g_txt{width:57%; position: absolute; left:17.6%; top:7.17213114754098%; z-index: 2; text-align: center;}
+.level_g .level_g_txt span{font-size: 30px; color: #fff; font-weight: bold; display: block;}
+.level_g .level_g_txt p{font-size: 20px; line-height: 26px; color:#fff; opacity: 0.6; font-weight: normal; padding-top: 8px; margin: 0;}
+.level_h .level_h_txt{width: 44.2%;  text-align:left; position: absolute; left: 2.4%;}
+.level_h .level_h_txt span{font-size: 30px; font-weight: bold; color: #fff; display: block; }
+.level_h .level_h_txt p{font-size:20px; line-height: 26px; padding-top: 8px; margin: 0; color: #fff; opacity: 0.6; display: block; }
+.level_h .level_h_txt1{top:35.6234096692112%;}
+.level_h_bg1{padding-top:39.3%; background-image: url(../kugoo1/image_pc/kugoo-s7-min.jpg);}
+.level_h .level_h_txt2{top:32.60869565217391%;}
+.level_h_bg2{padding-top:46.1%; background-image: url(../kugoo1/image_pc/kugoo-s8-min.jpg);}
+.level_h .level_h_txt3{top:31.40877598152425%;}
+.level_h_bg3{padding-top:43.3%; background-image: url(../kugoo1/image_pc/kugoo-s9-min.jpg);}
+.level_h .level_h_txt4{top:31.40877598152425%;}
+.level_h .level_h_txt4 span{color: #000;}
+.level_h .level_h_txt4 p{color: #393939;}
+.level_h_bg4{padding-top:43.3%; background-image: url(../kugoo1/image_pc/kugoo-s10-min.jpg);}
+.level_i_bg{padding-top:45.9%; background-image: url(../kugoo1/image_pc/kugoo-s11-min.jpg);}
+.level_i dl {width: 100%; position: absolute; left: 0; }
+.level_i dl dd{width:34%; font-size: 16px; line-height: 26px; color: #000; text-align: center; float: left; margin: 0;}
+.level_i .level_h_dl{top:27.88671023965142%;}
+.level_i .level_h_dl2{top:80.61002178649237%;}
+@media only screen and (max-width:640px){
+	.level_b .level_b_bg{padding-top:32.96875%; background-image: url(../kugoo1/image_m/m_kugoo-s1-min.jpg);}
+	.level_c_bg{padding-top:60.3125%; background-image: url(../kugoo1/image_m/m_kugoo-s2-min.jpg);}
+ 	.level_d_bg{padding-top:65%; background-image: url(../kugoo1/image_m/m_kugoo-s3-min.jpg);}
+ 	.level_e_bg{padding-top:55.78125%; background-image: url(../kugoo1/image_m/m_kugoo-s4-min.jpg);}
+ 	.level_f_bg{padding-top:50.9375%; background-image: url(../kugoo1/image_m/m_kugoo-s5-min.jpg);}
+ 	.level_g_bg{padding-top:48.75%; background-image: url(../kugoo1/image_m/m_kugoo-s6-min.jpg);}
+ 	.level_h_bg1{padding-top:39.375%; background-image: url(../kugoo1/image_m/m_kugoo-s7-min.jpg);}
+ 	.level_h_bg2{padding-top:46.09375%; background-image: url(../kugoo1/image_m/m_kugoo-s8-min.jpg);}
+ 	.level_h_bg3{padding-top:43.28125%; background-image: url(../kugoo1/image_m/m_kugoo-s9-min.jpg);}
+ 	.level_h_bg4{padding-top:43.281253%; background-image: url(../kugoo1/image_m/m_kugoo-s10-min.jpg);}
+ 	.level_i_bg{padding-top:47.5%; background-image: url(../kugoo1/image_m/m_kugoo-s11-min.jpg);}
+	.level_a  span {font-size: 1.25rem; font-weight: normal;}
+	.level_a  p{ font-size:0.8125rem; line-height:0.875rem; padding-top: 0.25rem;}
+	.level_b .level_b_box span{font-size: 13px; font-weight: normal;}
+	.level_b .level_b_box p{display: none;}
+ 	.level_d .level_d_txt span,.level_e .level_e_txt span,.level_g .level_g_txt span,.level_h .level_h_txt span{font-size: 1rem;font-weight: normal;}
+	.level_d .level_d_txt p,.level_g .level_g_txt p,.level_h .level_h_txt p{font-size: 0.8125rem; line-height: 0.875rem; padding-top: 0.25rem;}
+	.level_e .level_e_txt,.level_e .level_e_txt2{display: none}
+	.level_f span{font-size: 1rem; font-weight: normal;    left: 17.2%; top: 20.75442043222004%;}
+	.level_h .level_h_txt1 {top: 11.9047619047619%; }
+	.level_h .level_h_txt2 {top: 13.55932203389831%; }
+	.level_h .level_h_txt3{  top: 10.83032490974729%;}
+	.level_h .level_h_txt4 {top: 7.22021660649819%; }
+	.level_i dl{display: none;}
+}
+</style>
+<h2>Note</h2>
+<p><strong>Support duty-free fast Shipping for these 26 countries:</strong></p>
+<p>Denmark, Spain, Ireland, Netherlands, Portugal, Lithuania, Hungary, Slovakia, Romania, Finland, Bulgaria, Croatia, Austria, Italy, Sweden, France, Czech Republic, Belgium, Poland, Estonia, Greece, Germany, Luxembourg, Latvia, Slovenia,&nbsp;United Kingdom.</p>
+<p>*Europe&nbsp;stock ,Duty Free Fast Shipping.Offer After Sale Service in&nbsp;Europe.</p>
+<p>For safety reason, please do not ride on rainy days, and not soak the electric scooter. Please&nbsp;<a style="COLOR: #ff0000;" target="_blank" href="http://blog.geekbuying.com/2019/08/kugoo-safety">click here</a> to know the safety tips.</p>
+<h2>Highlights</h2>
+<p><strong>8.0 Inch Solid &amp; Anti-skid Tire</strong></p>
+<p>Strong grip, wear-resisting and safe. It's suitable for different kinds of roads.</p>
+<p><strong>3 Speed Modes</strong></p>
+<p>You can control the speed with one key according to the different road surface conditions, which makes driving more comfortable and riding more security.</p>
+<p><strong>350W Motor</strong></p>
+<p>Strong power and running farther: 350W Motor, Max 30KM running distance.</p>
+<p><strong>LCD Display Screen</strong></p>
+<p>The well-lit display allows you to monitor your speed, distance traveled, battery life, and time traveled.</p>
+<p><strong>Bright&nbsp;&nbsp;LED&nbsp;Headlight&nbsp;</strong><strong>&amp; Safety Warning Taillight</strong></p>
+<p>The bright headlight can illuminate your way and the red taillight can make others notice you, and both of which can give you a safer riding at night.</p>
+<p><strong>Shock Mitigation System</strong></p>
+<p>Front and back shock mitigation system can help you enjoy a comfortable riding.</p>
+<p><strong>Safer&nbsp;Braking Distance</strong></p>
+<p>4 meter braking distance -&nbsp;Stop on a dime.</p>
+<p><strong>Folding Handle</strong></p>
+<p>Help get a tiny size when the scooter is folding.</p>
+<p><strong>Adjustable Height</strong></p>
+<p>There are 3 different heights that can be adjusted: 930mm, 1070mm, and 1160mm, which can be fit for different people.</p>
+<p><strong>RoHS &amp; CE Certification</strong></p>
+<p>Pass RoHS and CE&nbsp;verification, it is a safe product.</p>
+<p><span style="font-size: small;">*If interest wholesale KUGOO S1, Please contact wholesale@geekbuying.com for more details.</span><span style="font-size: small;"><br />
+</span></p>
+ 
+	<div class="pro_dec clearfix">
+		<div class="level_a posr_w clearfix">
+		 	<span>Born To Ride </span>
+			<p>Kugoo S1 is the future of e-scooter which allows you to commute across your city and provides a faster and smoother riding experience. </p>
+	 	</div>
+		<div class="level_b posr_w clearfix">
+			<div class="level_b_bg bac_cover"></div>
+			<div class="level_b_box level_b_box1">
+				<span>Ultra Durable Tires </span>
+				<p>Nan-pneumatic & non-slip material with composite rubber coating coupled with improved treads enhances its performance immensely. </p>
+			</div>
+			<div class="level_b_box level_b_box2">
+				<span>Extremely Portable</span>
+				<p>The Kugoo S1 features a lever-activated folding frame, it’s portable design make it convenient for people on the go. </p>
+			</div>
+			<div class="level_b_box level_b_box3">
+				<span>Advanced Engineering </span> 
+				<p>350W brushless motor complemented with a beefy 36V 6000mAh lithium battery allows riders to enjoy Longer rides. </p>
+			</div>
+			<div class="level_b_box level_b_box4">
+				<span>3 Speed Modes</span> 
+				<p>Supports 15km/h,25km/h and 30km/h speed modes,You can control the speed with one key according to the different road surface conditions.</p> 
+			</div>
+		</div>
+		<div class="level_c posr_w clearfix">
+			<div class="level_c_bg bac_cover"></div>
+	 	</div>
+	 	<div class="level_d posr_w clearfix">
+			<div class="level_d_bg bac_cover"></div>
+			<div class="level_d_txt">
+				<span>Bright LCD Display</span>
+				<p>The display indicator in the front allows riders to view all the relevant information like the speed, mileage and battery capacity. </p>
+			</div>
+	 	</div>
+	 	<div class="level_e posr_w clearfix">
+			<div class="level_e_bg bac_cover"></div>
+			<div class="level_e_txt">
+				<span>Easy to fold & Carry design</span>
+				<span class="btn">11kg</span>
+			</div>
+			<dl class="level_e_txt2">
+				<dd>Take the subway</dd>
+				<dd>Take the bus</dd>
+				<dd style="margin-right: 0;">Car trunk</dd>
+			</dl>
+	 	</div>
+	 	<div class="level_f posr_w clearfix">
+			<div class="level_f_bg bac_cover"></div>
+			<span>Folding Button</span>
+	 	</div>
+	 	<div class="level_g posr_w clearfix">
+			<div class="level_g_bg bac_cover"></div>
+			<div class="level_g_txt">
+				<span>30 Km Range</span>
+				<p>Kugoo S1 is equipped with a 6000mAh high capacity lithium battery complemented with a smart power management system providing high mileage. </p>
+			</div>
+	 	</div>
+	 	<div class="level_h posr_w clearfix">
+			<div class="level_h_bg1 bac_cover"></div>
+			<div class="level_h_txt level_h_txt1">
+				<span>Powerful LED Headlights </span>
+				<p>A combination of 24 super bright headlights allows you to ride at night comfortably. </p>
+			</div>
+	 	</div>	
+	 	<div class="level_h posr_w clearfix">
+			<div class="level_h_bg2 bac_cover"></div>
+			<div class="level_h_txt level_h_txt2">
+				<span>Safety Brake Lights </span>
+				<p>The rear bumper is equipped with a bright safety light which is activated when the brakes are applied alerting other vehicles. </p>
+			</div>
+	 	</div>	
+	 	<div class="level_h posr_w clearfix">
+			<div class="level_h_bg3 bac_cover"></div>
+			<div class="level_h_txt level_h_txt3">
+				<span>120 Kg Load Capacity</span>
+				<p>TKugoo S1 has a solid aluminium frame on the base capable of carrying riders weighing up to 120 kg. </p>
+			</div>
+	 	</div>	
+	 	<div class="level_h posr_w clearfix">
+			<div class="level_h_bg4 bac_cover"></div>
+			<div class="level_h_txt level_h_txt4">
+				<span>Dual Braking System </span>
+				<p>Kugoo S1 is equipped with a revolutionary braking system which allows users to apply brakes by pressing the left throttle knob or by applying the rear bumper brake.  </p>
+			</div>
+	 	</div>	
+	 	<div class="level_i posr_w clearfix">
+			<div class="level_i_bg bac_cover"></div>
+			<dl class="level_h_dl">
+				<dd>"We recommend this model for you"</dd>
+				<dd>"A great upgrade from traditional electric scooters!" </dd>
+				<dd style="width: 32%">"The ultimate Xiaomi M365 Killer" </dd>
+			</dl>
+			<dl class="level_h_dl2">
+				<dd>"Super fast, very sturdy, and budget friendly"</dd>
+				<dd>"The best e-scooter you can get for the price!" </dd>
+				<dd style="width: 32%">"The best budget e-scooter on the market today" </dd>
+			</dl>
+	 	</div>		 		 		 		 		 			 		 	
+	</div>
+
+
+<h2>Specification</h2>
+<table cellpadding="5" cellspacing="0" class="jbEidtTable">
+    <tbody>
+        <tr>
+            <td><strong>General</strong></td>
+            <td>
+            <p>Brand: KUGOO<br />
+            Type: Electric Scooter<br />
+            Model: KUGOO S1<br />
+            Color: Black</p>
+            </td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td><strong>Specification</strong></td>
+            <td>Speed Mode: 15KM/H; 25KM/H; 30KM/H<br />
+            Battery: 18650 Li-ion Battery Pack<br />
+            Max. Mileage: 30 KM(Depends on Road and Driver Weight)<br />
+            Max. Speed: 30km/h<br />
+            Max. Load: 120KG<br />
+            Light: Front Lamp, Tail Light<br />
+            Permissible Gradient(Depends on Your Weight): 15 degree<br />
+            Battery Capacity: 6AH<br />
+            Battery Voltage: 36V<br />
+            Motor Type: Brushless DC Motor<br />
+            Motor Rated Power: 350W<br />
+            Max. Motor Rotate Speed: 700R/Min<br />
+            Motor Rated Voltage: 36V<br />
+            Max. Torque: 13.3N.M<br />
+            Charging Time: 4H<br />
+            Waterproof: IP54<br />
+            Climbing Gradient: 15 Degree<br />
+            Wheel Size: 8.0 inch&nbsp;Solid Rear Anti-Skid Tire<br />
+            Braking Distance: 4M</td>
+        </tr>
+        <tr>
+            <td><strong>Weight &amp; Dimensions</strong></td>
+            <td>Product Weight: 11kg<br />
+            Package Weight: 15kg<br />
+            Product Dimensions: 1050 x 450 x 930/1070/1160mm(Unfold)<br />
+            Folding Size: 960 x 210 x 330mm<br />
+            Package Dimensions: 1030 x 210 x 405mm</td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td><strong>Package Contents</strong></td>
+            <td>
+            <p>1 x Folding Electric&nbsp; Scooter<br />
+            1 x Charger<br />
+            1 x Adapter&nbsp;<br />
+            1 x User Manual</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
