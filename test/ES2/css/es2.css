@@ -1,0 +1,111 @@
+.posr_w{position: relative; max-width: 1000px;}
+.bac_cover{background-size: cover; background-position: center;}
+.pro_dec .span_txt{font-size: 36px; font-weight: bold; display: block; }
+.pro_dec .p_txt{font-size: 24px; padding-top: 10px; margin: 0; display: block;  opacity: 0.7;}
+.level_a .level_a_bg{ padding-top: 48.4%; background-image: url(../images/pc-es2-1-min.jpg); }
+.level_a .level_a_txt{width:200px; height: 165px; position: absolute; top:36.5702479338843%; left: 42.8%; z-index: 2; margin: 0; padding: 0;}
+.level_a_txt dd{color: #2e2e2e; font-size: 12px;margin: 0; padding:0; position: absolute;  }
+.level_a_txt dd.level_a_txt1{top:37.57575757575758%; left: 5%;}
+.level_a_txt dd.level_a_txt2{top:37.57575757575758%; left: 50%;}
+.level_a_txt dd.level_a_txt3{top:84.84848484848485%; left: 5%;}
+.level_a_txt dd.level_a_txt4{top:84.84848484848485%; left: 50%;}
+.level_b .level_b_bg{ padding-top: 41.9%; background-image: url(../images/pc-es2-2-min.jpg); }
+.level_b .level_b_txt{position: absolute; top: 0; left: 0; width: 100%;	}
+.level_b_txt span,.level_b_txt p{color: #000; text-align: center;}
+.level_b_title{margin: 0;padding: 0;}
+.level_b_title dd{position: absolute; z-index: 2; margin: 0; padding-bottom:2px; font-size: 20px; color: #fff; opacity: 0.8; border-bottom: 1px solid #fff;}
+.level_b_title dd.level_b_title1{top:32.4582338902148%; left: 4%;}
+.level_b_title dd.level_b_title2{bottom: 3.34128878281623%; left:31.4%;}
+.level_b_title dd.level_b_title3{top:32.4582338902148%; right: 15.6%;}
+.level_c .level_c_bg{ padding-top: 41.9%; background-image: url(../images/pc-es2-3-min.jpg); }
+.level_c .level_c_txt{position: absolute; top:7.15990453460621%; left: 4.2%; width:48%;}
+.level_c_txt span,.level_c_txt p{color: #000;text-align: left;}
+.level_c .level_c_title{position: absolute; top:89.97613365155131%; left: 8.5%; width: 40%; margin: 0; padding: 0;}
+.level_c .level_c_title dd{color: #000; font-size: 20px; opacity: 0.7; margin: 0; padding: 0;}
+.level_c .level_c_title1{ position: absolute; top:0; left:0; }
+.level_c .level_c_title2{ position: absolute; top:0; left:60%; }
+.level_d .level_d_bg{ padding-top: 42.8%; background-image: url(../images/pc-es2-4-min.jpg); }
+.level_d .level_d_txt{position: absolute; top:7.00934579439252%; left:3.8%; width:54.6%; }
+.level_d_txt span,.level_d_txt p{ color: #fff; text-align: left;}
+.level_e .level_e_bg{ padding-top: 43.1%; background-image: url(../images/pc-es2-5-min.jpg); }
+.level_e .level_e_txt{position: absolute; top:10.20881670533643%; left:5%; width:90%; }
+.level_e_txt span,.level_e_txt p{color: #000;  text-align: center;}
+.level_f .level_f_bg{ padding-top:68.5%; background-image: url(../images/pc-es2-6-min.jpg); }
+.level_f .level_f_txt{position: absolute; top:7.2992700729927%; left:3%; width:57.4%; }
+.level_f .level_f_txt2{position: absolute; top:62.77372262773723%; left:44.6%; width:53.4%; }
+.level_f_txt span,.level_f_txt2 span,.level_f_txt p,.level_f_txt2 p{color: #000; text-align: left;}
+.level_g .level_g_bg{ padding-top: 42.6%; background-image: url(../images/pc-es2-7-min.jpg); }
+.level_g .level_g_txt{position: absolute; top:0; left:5%; width:90%; }
+.level_g_txt span,.level_g_txt p{color: #000;text-align: center;}
+.level_h .level_h_bg{ padding-top: 42.2%; background-image: url(../images/pc-es2-8-min.jpg); }
+.level_h .level_h_txt{position: absolute; top:7.10900473933649%; left:5%; width:90%; }
+.level_h_txt span{ color: #000; text-align: center;} 
+.level_h_txt1,.level_h_txt2{color: #fff; opacity: 0.8; font-size: 20px; position: absolute;}
+.level_h_txt1 em,.level_h_txt2 em{padding-bottom: 4px; border-bottom: 1px solid #fff; font-style: normal;}
+.level_h_txt1{bottom:3.3175355450237%; left:3.3175355450237%;}
+.level_h_txt2{top:28.90995260663507%; right: 23.4%;}
+.level_i .level_i_bg{ padding-top: 42.4%; background-image: url(../images/pc-es2-9-min.jpg); }
+.level_i .level_i_txt{position: absolute; top:9.43396226415094%; left:5%; width:90%; }
+.level_i_txt span,.level_i_txt p{ color: #000; text-align: center;} 
+.level_j .level_j_bg{ padding-top: 43.8%; background-image: url(../images/pc-es2-10-min.jpg); }
+.level_j .level_j_txt{position: absolute; top:60.27397260273973%; right:2.2%; width:49.4%; }
+.level_j_txt span,.level_j_txt p{color: #000; text-align: left;} 
+.level_k .level_k_bg{ padding-top: 42.9%; background-image: url(../images/pc-es2-11-min.jpg); }
+.level_k .level_k_txt{position: absolute; top:20.64777327935223%; left:5%; width:36.4%; }
+.level_k_txt span,.level_k_txt p{color: #000;  text-align: left;} 
+.level_l .level_l_bg{ padding-top: 42.9%; background-image: url(../images/pc-es2-12-min.jpg); }
+.level_l .level_l_txt{position: absolute; top:28.9044289044289%; left:5%; width:46.4%; }
+.level_l_txt span,.level_l_txt p{color: #fff;   text-align: left;} 
+.level_m .level_m_bg{ padding-top: 42.8%; background-image: url(../images/pc-es2-13-min.jpg); }
+.level_m .level_m_txt{position: absolute; top:12.61682242990654%; left:5%; width:90%; }
+.level_m_txt span,.level_m_txt p{color: #fff;   text-align: center;}
+.level_o .level_o_bg{ padding-top: 63.9%; background-image: url(../images/pc-es2-14-min.jpg); }
+.level_o .level_o_txt{position: absolute; top:6.25978090766823%; left:41.8%; width:54%; }
+.level_o_txt span,.level_o_txt p{color: #000;   text-align: left;}
+.level_o .level_o_txt2{position: absolute; top:66.97965571205008%; left: 54.4%;}
+.level_o .level_o_txt2 span{font-size: 18px;   text-align: center;} 
+.level_o .level_o_txt2 p{font-size:12px; display: block; font-weight: bold; margin: 0; padding-top:6px; text-align: center;} 
+.level_o a{width:12.3%; height:5.79029733959311%; position: absolute; left: 57.5%;}
+.level_o a.download_android{bottom:18.30985915492958%;}
+.level_o a.download_app{bottom:11.58059467918623%}
+
+@media only screen and (max-width:640px){
+.level_a .level_a_bg{ padding-top:48.475%; background-image: url(../images/m_es/m-es2-1-min.jpg); }
+.level_a .level_a_txt{display: none;}
+.level_b .level_b_bg{ padding-top:41.875%; background-image: url(../images/m_es/m-es2-2-min.jpg); }
+.pro_dec .span_txt{font-size:0.875rem; font-weight: normal;}
+.pro_dec .p_txt{font-size:0.75rem; padding-top:0.25rem; line-height: 0.8125rem;}
+.level_b_title dd{ font-size:0.75rem;}
+.level_b_title dd.level_b_title1{top:32.4582338902148%; left:4.6875%;}
+.level_b_title dd.level_b_title2{bottom: 3.34128878281623%; left:31.4%;}
+.level_b_title dd.level_b_title3{top:32.4582338902148%; right: 10.6%;}
+.level_c .level_c_bg{ padding-top:43.90625%; background-image: url(../images/m_es/m-es2-3-min.jpg); }
+.level_c .level_c_txt{position: absolute; top:7.15990453460621%; left: 4.2%; width:48%;}
+.level_c .level_c_title{position: absolute; top:85.40925266903915%; left:6%; width: 48%;}
+.level_c .level_c_title dd{font-size: 0.75rem;}
+.level_c .level_c_title2{  top:0; left:50%; }
+.level_d .level_d_bg{ padding-top:42.8125%; background-image: url(../images/m_es/m-es2-4-min.jpg); }
+.level_d .level_d_txt{ top:7.00934579439252%; left:3.8%; width:57.6%; }
+.level_e .level_e_bg{ padding-top: 43.125%; background-image: url(../images/m_es/m-es2-5-min.jpg); }
+.level_e .level_e_txt{ top:6.75675675675676%; left:2%; width:96%; }
+.level_f .level_f_bg{ padding-top:68.4375%; background-image: url(../images/m_es/m-es2-6-min.jpg); }
+.level_f .level_f_txt{ top:7.2992700729927%; left:3%; width:57.4%; }
+.level_f .level_f_txt2{ top:60.95890410958904%; left:44.6%; width:53.4%;}
+.level_g .level_g_bg{ padding-top:42.65625%; background-image: url(../images/m_es/m-es2-7-min.jpg); }
+.level_g .level_g_txt{position: absolute; top:0; left:0; width:100%; }
+.level_h .level_h_bg{padding-top:42.1875%; background-image: url(../images/m_es/m-es2-8-min.jpg);}
+.level_h_txt1, .level_h_txt2{font-size: 0.75rem;}
+.level_i .level_i_bg{ padding-top:42.34375%; background-image: url(../images/m_es/m-es2-9-min.jpg);}
+.level_i .level_i_txt{top:3.690036900369%;left: 0; width: 100%;}
+.level_j .level_j_bg{ padding-top:43.75%; background-image: url(../images/m_es/m-es2-10-min.jpg); }
+.level_k .level_k_bg{ padding-top:42.96875%; background-image: url(../images/m_es/m-es2-11-min.jpg); }
+.level_l .level_l_bg{ padding-top:42.96875%; background-image: url(../images/m_es/m-es2-12-min.jpg); }
+.level_m .level_m_bg{ padding-top:42.8125%; background-image: url(../images/m_es/m-es2-13-min.jpg); }
+.level_m .level_m_txt{width: 100%; left: 0; top:7.2992700729927%;}
+.level_o .level_o_bg{ padding-top:63.90625%; background-image: url(../images/m_es/m-es2-14-min.jpg); }
+.level_o .level_o_txt{top:2.44498777506112%;}
+.level_o .level_o_txt .p_txt{padding-top: 0;}
+.level_o .level_o_txt2{ top: 61.12469437652812%; left: 42.1875%;}
+.level_o .level_o_txt2 span,.level_o .level_o_txt2 p{font-size: 0.75rem;font-weight: normal; padding-top: 0;}
+
+}
