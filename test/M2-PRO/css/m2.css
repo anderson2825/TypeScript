@@ -58,7 +58,7 @@
 
 @media only screen and (max-width:640px){
 .pro_dec .span_txt{font-size:0.875rem; font-weight: normal;}
-.pro_dec .p_txt{font-size:0.75rem; padding-top:0.25rem; line-height: 0.8125rem;}
+.pro_dec .p_txt{font-size:0.8125rem; padding-top:0.25rem; line-height: 0.8125rem;}
 .level_f .level_f_txt, .level_g .level_g_txt, .level_h .level_h_txt, .level_i .level_i_txt,.level_k .level_k_txt,.level_l .level_l_txt{top:0.25rem; left: 5%; width: 90%;}	
 .level_a .level_a_bg{ padding-top:62.96875%; background-image: url(../images/m/m_m2pro_1.jpg); }
 .level_a .level_a_txt{display: none;}
