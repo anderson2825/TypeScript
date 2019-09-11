@@ -55,7 +55,10 @@
 .level_o a{width:12.5%; height:5.51724137931034%; position: absolute; left:13.2%;}
 .level_o a.download_android{bottom:14.3448275862069%;}
 .level_o a.download_app{bottom:21.51724137931034%}
-
+@media only screen and (width:414px){
+.pro_dec .span_txt{font-size:0.875rem; font-weight: normal;}
+.pro_dec .p_txt{font-size:0.8125rem; padding-top:0.25rem; line-height: 0.875rem;}
+}
 @media only screen and (max-width:640px){
 .pro_dec .span_txt{font-size:0.875rem; font-weight: normal;}
 .pro_dec .p_txt{font-size:13%; padding-top:0.25rem; line-height: 0.8125rem;}
