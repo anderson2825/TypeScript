@@ -1,0 +1,65 @@
+$red:#fd282a;
+.posr_w{position: relative; max-width: 1000px;}
+.bac_cover{background-size: cover; background-position: center;}
+.pro_dec .span_txt{font-size:36px; display: block; color:#fd282a; text-align: left; }
+.pro_dec .p_txt{font-size:20px; padding-top: 10px; color: #000; margin: 0; display: block; text-align: left;}
+.level_a .level_a_bg{ padding-top:903/1000*100%; background-image: url(../images/pc/pc_g_booster1-min.jpg);}
+.level_a .level_a_title{position: absolute;top:220/903*100%; left:478/1000*100%; }
+.level_a_title h3{font-size:48px; color: #fff;  font-weight: normal; margin: 0;}
+.level_a_title span{font-size: 30px;color: #fff; opacity: 0.83;margin: 0;}
+.level_a .level_a_txt{width:670px; height:40px; position: absolute; bottom:136/902*100%; left:17.2%; z-index: 2; margin: 0; padding: 0;}
+.level_a_txt dd{color: #fff; font-size:17px;margin: 0; padding:0; position: absolute;  }
+.level_a_txt dd.level_a_txt1{bottom:0; left:20/670*100%;}
+.level_a_txt dd.level_a_txt2{bottom:0; left:260/670*100%;}
+.level_a_txt dd.level_a_txt3{bottom:0; left:480/670*100%;}
+.level_b .level_b_bg{ padding-top:43.9%; background-image: url(../images/pc/pc_g_booster2-min.jpg); }
+.level_b .level_b_txt{position: absolute; top:100/439*100%; left:42/1000*100%; width:38.7%;	}
+.level_c .level_c_bg{ padding-top:70.1%; background-image: url(../images/pc/pc_g_booster3-min.jpg); }
+.level_c .level_c_txt{ position: absolute; top:274/701*100%; right:74/1000*100%; width:34%;}
+.level_c_txt span.span_txt{text-align: left;}
+.level_c_txt span.span_txt em{color: #000; font-style: normal;}
+.level_d .level_d_bg{ padding-top:56.2%; background-image: url(../images/pc/pc_g_booster4-min.jpg); }
+.level_d .level_d_txt{position: absolute; top:156/562*100%; left:42/1000*100%; width:28.6%; }
+.level_e .level_e_bg{ padding-top:47.8%; background-image: url(../images/pc/pc_g_booster5-min.jpg);}
+.level_e .level_e_txt{position: absolute; top:130/478*100%;right:74/1000*100%; width:34%; }
+.level_e_txt em,.level_f_txt em{font-style: normal; color: #fff; display: block;}
+.level_e_txt p.p_txt,.level_f_txt p.p_txt{color:#fff; opacity: 0.7;}
+.level_f .level_f_bg{ padding-top:46.5%; background-image: url(../images/pc/pc_g_booster6-min.jpg); }
+.level_f .level_f_txt{ position: absolute; top:156/465*100%; left:42/1000*100%;}
+.level_g .level_g_bg{ padding-top:83.2%; background-image: url(../images/pc/pc_g_booster7-min.jpg); }
+.level_g_txt dd{color:#333; font-size: 16px; margin: 0; position: absolute;}
+.level_g_txt dd.level_g_txt1{top:46/832*100%;  left:12.8%;}
+.level_g_txt dd.level_g_txt2{top:122/832*100%; left:37.6%;}
+.level_g_txt dd.level_g_txt3{bottom:334/832*100%;  left:8.8%;}
+.level_g_txt dd.level_g_txt4{bottom:377/832*100%;  left:28.8%;}
+.level_g_txt dd.level_g_txt5{bottom:294/832*100%;  left:45.7%;}
+.level_g_txt dd.level_g_txt6{bottom:316/832*100%;  right:8.8%;}
+.level_g_txt dd.level_g_txt7{bottom:190/832*100%; right:8.8%;}
+.level_g_txt dd.level_g_txt8{bottom:82/832*100%;  right:37.5%;} 
+
+@media only screen and (max-width:640px){
+.pro_dec .span_txt{font-size:0.875rem; font-weight: normal;}
+.pro_dec .p_txt{font-size:0.75rem; padding-top:0.25rem; line-height: 0.8125rem;}
+.level_a .level_a_bg{ padding-top:578/640*100%; background-image: url(../images/m/m_g_booster1-min.jpg);}
+.level_a .level_a_title{left: 306/640*100%; top: 132/578*100%;
+	h3{font-size: 1rem;}
+	span{font-size:0.875rem}
+}
+.level_a .level_a_txt{display: none;}
+.level_b .level_b_bg{ padding-top:281/640*100%; background-image: url(../images/m/m_g_booster2-min.jpg); }
+.level_b .level_b_txt {top:46/281*100%; left:26/640*100%; width:240/640*100%}
+.level_c .level_c_bg{ padding-top:449/640*100%; background-image: url(../images/m/m_g_booster3-min.jpg); }
+ .level_c .level_c_txt{    
+    top:178/449*100%;
+    right:48/640*100%;
+    width:218/640*100%;}
+.level_d .level_d_bg{ padding-top:360/640*100%; background-image: url(../images/m/m_g_booster4-min.jpg);}
+.level_d .level_d_txt{ top:98/360*100%; left:26/640*100%; width:190/640*100%; }
+.level_e .level_e_bg{ padding-top:306/640*100%; background-image: url(../images/m/m_g_booster5-min.jpg); }
+.level_e .level_e_txt{  top: 39.6436525612%; right:48/640*100%; width: 34.0625%;}
+.level_e .level_e_title{top: 58.03357314148681%;}
+.level_f .level_f_bg{ padding-top:298/640*100%; background-image: url(../images/m/m_g_booster6-min.jpg); }
+.level_f .level_f_txt{}
+.level_g .level_g_bg{ padding-top:85.9375%; background-image: url(../images/m/m_g_booster7-min.jpg); }
+.level_g .level_g_txt{display: none;}
+}
