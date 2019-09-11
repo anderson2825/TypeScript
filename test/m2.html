@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<meta name="viewport" content="initial-scale=1,width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+	<!-- <link rel="stylesheet" href="./css/m2.css"/> -->
+	
+</head>
+<body>
+	<style>
+		.posr_w{position: relative; max-width: 1000px;}
+		.bac_cover{background-size: cover; background-position: center;}
+		.pro_dec .span_txt{font-size:29px; display: block; color: #fff; text-align: center; }
+		.pro_dec .p_txt{font-size:22px; padding-top: 10px; color: #b1b1b1; margin: 0; display: block; text-align: center;}
+		.level_a .level_a_bg{ padding-top:62.9%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_1-min.jpg); }
+		.level_a .level_a_txt{width:340px; height: 188px; position: absolute; top:33.06836248012719%; left:55.9%; z-index: 2; margin: 0; padding: 0;}
+		.level_a_txt dd{color: #fff; font-size:17px;margin: 0; padding:0; position: absolute;  }
+		.level_a_txt dd.level_a_txt1{top:3.19148936170213%; left: 5%;}
+		.level_a_txt dd.level_a_txt2{top:3.19148936170213%; left:56.47058823529412%;}
+		.level_a_txt dd.level_a_txt3{top:79.78723404255319%; left: 5%;}
+		.level_a_txt dd.level_a_txt4{top:79.78723404255319%; left:56.47058823529412%;}
+		.level_b .level_b_bg{ padding-top:51.3%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_2-min.jpg); }
+		.level_b .level_b_txt{position: absolute; top:3.89863547758285%; left: 20%; width: 60%;	}
+		.level_b_title{margin: 0;padding: 0;}
+		.level_b_title dd{position: absolute;  bottom:5.0682261208577%; z-index: 2; font-style:italic;  margin: 0; font-size: 21px; color: #e7e7e7; opacity: 0.9;}
+		.level_b_title dd.level_b_title1{left:11.6%;}
+		.level_b_title dd.level_b_title2{ left:37.5%;}
+		.level_b_title dd.level_b_title3{ right: 15.6%;}
+		.level_c .level_c_bg{ padding-top:50.7%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_3-min.jpg); }
+		.level_c .level_c_txt{ position: absolute; top:0; left:0; width:100%;}
+		.level_c_txt span.span_txt{font-size: 21px; font-style: italic; color: #e7e7e7;text-align: center; opacity: 0.9; padding-top:0.78895463%;}
+		.level_d .level_d_bg{ padding-top: 60.4%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_4-min.jpg); }
+		.level_d .level_d_txt{position: absolute; top:4.96688741721854%; left:20%; width:60%; }
+		.level_e .level_e_bg{ padding-top:65.2%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_5-min.jpg);}
+		.level_e .level_e_txt{position: absolute; top:3.06748466257669%; left:14.6%; width:31%; }
+		.level_e_txt span.span_txt,.level_e_txt p.p_txt{text-align: left;}
+		.level_e .level_e_title{ width: 24.6%; height:43.07692307692308%; position: absolute; margin: 0;padding: 0; left: 17.7%; top:53.98773006134969%;}
+		.level_e_title dd{font-size: 22px; color: #fff; opacity: 0.5; padding: 0; margin: 0;}
+		.level_e_title dd.level_e_title2{position: absolute; left:7.31707317073171%;  bottom: 5.71428571428571%;}
+		.level_f .level_f_bg{ padding-top:59%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_6-min.jpg); }
+		.level_f .level_f_txt,.level_g .level_g_txt,.level_h .level_h_txt,.level_i .level_i_txt{position: absolute; top: 3.38983050847458%; left:20%; width: 60%; }
+		.level_g .level_g_bg{ padding-top:86%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_7-min.jpg); }
+		.level_h .level_h_bg{ padding-top:81.3%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_8-min.jpg); }
+		.level_i .level_i_bg{ padding-top:68.2%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_9-min.jpg); }
+		.level_i .level_i_title{ position: absolute; width: 27%; left: 53.6%; top:34.60410557184751%;}
+		.level_i .level_i_title span{font-size: 12px; color: #efefef; opacity: 0.38;}
+		.level_i .level_i_title p{font-size: 17px; color: #fff; opacity: 0.63;}
+		.level_j .level_j_bg{ padding-top:34%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_10-min.jpg); }
+		.level_j .level_j_txt{position: absolute; top:5.88235294117647%; left:0; width:100%; }
+		.level_j .level_j_title{position: absolute; bottom:2.05882352941176%;left: 0; width: 100%; margin: 0;}
+		.level_j .level_j_title dd{ color: #cfcfcf; font-style: italic;font-size: 18px; margin: 0; }
+		.level_j .level_j_title .level_j_title1{ position: absolute;left: 13.2%; bottom: 0;}
+		.level_j .level_j_title .level_j_title2{ position: absolute;left: 63.7%; bottom: 0;}
+		.level_k .level_k_bg{ padding-top:68.6%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_11-min.jpg); }
+		.level_k .level_k_txt{position: absolute; top:7.28862973760933%; left:26%; width:52%; }
+		.level_k_txt span,.level_k_txt p{color: #000;  text-align: left;} 
+		.level_l .level_l_bg{ padding-top:60.4%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_12-min.jpg); }
+		.level_l .level_l_txt{position: absolute; top:13.24503311258278%; left:18%; width:64%; }
+		.level_o .level_o_bg{ padding-top:72.5%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/pc_m2pro_13-min.jpg); }
+		.level_o .level_o_txt{position: absolute; top:6.25978090766823%; left:5%; width:51.2%; }
+		.level_o_txt span.span_txt,.level_o_txt p.p_txt{text-align: left;}
+		.level_o .level_o_txt2{position: absolute; top:64.55172413793103%; left:14%;}
+		.level_o .level_o_table,.level_o .level_o_app,.level_o .level_o_mobile{display: none;}
+		.level_o .level_o_txt2 span{font-size:17px; color: #fff; opacity: 0.8;   text-align: center;} 
+		.level_o .level_o_txt2 p{font-size:13px; color: #f5f5f5; opacity: 0.6; display: block;  margin: 0; padding-top:6px; text-align: center;} 
+		.level_o .app_kugoo{width:12.5%; height:5.51724137931034%; position: absolute; left:13.2%; opacity: 0;}
+		.level_o a.download_android{bottom:14.3448275862069%;}
+		.level_o a.download_ioskugoo{bottom:21.51724137931034%}
+
+		@media only screen and (max-width:640px){
+		.pro_dec .span_txt{font-size:0.875rem; font-weight: normal;}
+		.pro_dec .p_txt{font-size:0.75rem; padding-top:0.25rem; line-height: 0.8125rem;}
+		.level_f .level_f_txt, .level_g .level_g_txt, .level_h .level_h_txt, .level_i .level_i_txt,.level_k .level_k_txt,.level_l .level_l_txt{top:0.25rem; left: 5%; width: 90%;}	
+		.level_a .level_a_bg{ padding-top:62.96875%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_1.jpg); }
+		.level_a .level_a_txt{display: none;}
+		.level_b .level_b_bg{ padding-top:51.25%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_2.jpg); }
+		.level_b_title dd{ font-size:0.75rem; bottom:2.13414634146341%;}
+		.level_c .level_c_bg{ padding-top:68.59375%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_3.jpg); }
+		.level_c_txt span.span_txt{font-size: 1rem;}
+		.level_c .level_c_txt{position: absolute; top:0; left:0; width:100%; padding-top: 0.0625rem;}
+		.level_d .level_d_bg{ padding-top:60.46875%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_4.jpg);}
+		.level_d .level_d_txt{ top:2.58397932816537%; left:5%; width:90%; }
+		.level_e .level_e_bg{ padding-top:65.15625%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_5.jpg); }
+		.level_e .level_e_txt{left:2%;}
+		.level_e .level_e_title{height: 40.7673860911271%; top: 58.03357314148681%;}
+		.level_e_title dd{font-size: 0.75rem;}
+		.level_e_title dd.level_e_title2{bottom: 0;}
+		.level_f .level_f_bg{ padding-top:59.0625%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_6.jpg); }
+		.level_g .level_g_bg{ padding-top:85.9375%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_7.jpg); }
+		.level_h .level_h_bg{padding-top:81.25%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_8.jpg);}
+		.level_h_txt1, .level_h_txt2{font-size: 0.75rem;}
+		.level_i .level_i_bg{ padding-top:68.125%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_9.jpg);}
+		.level_i .level_i_title{display: none;}
+		.level_j .level_j_bg{ padding-top:34.0625%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_10.jpg); }
+		.level_j .level_j_title dd{font-size: 0.75rem;}
+		.level_k .level_k_bg{ padding-top:68.59375%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_11.jpg); }
+		.level_l .level_l_bg{ padding-top:60.46875%; background-image: url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_12.jpg); }
+		.level_o{background: #000;}
+		.level_o .level_o_bg{ background-image:none; background-color: #000; padding-top: 0; }
+		.level_o .level_o_txt,.level_o .level_o_txt2{ width:90%; padding-left: 5%; position: static; padding-top:0.625rem;}
+		.level_o .level_o_txt .p_txt{padding-top: 0;}
+		.level_o_txt span.span_txt, .level_o_txt p.p_txt,.level_o .level_o_txt2 span,.level_o .level_o_txt2 p{text-align: center;}
+		.level_o .level_o_table{padding-top:53.90625%; display: block; background-image:url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_16.jpg); }
+		.level_o .level_o_app{padding-top:30.3125%; display: block; background-image:url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_14.jpg); position: relative; }
+		.level_o_app .level_o_app_a{width:32.1875%; height: 34.02061855670103%; position: absolute; left:18.75%; opacity: 0;}
+		.level_o_app .kugoo_android{top:51.54639175257732%;}
+		.level_o_app .kugoo_ioskugoo{top:7.7319587628866%;}
+		.level_o .level_o_mobile{padding-top:164.6875%; display: block; background-image:url(https://image3.geekbuying.com/ggo_pic/2019-09-11/m_m2pro_15.jpg); }
+		.level_o .app_kugoo{display: none;}
+ 		}
+	</style>
+<h2>Note</h2>
+<p style="font-size: 12px; font-weight: 400;"><strong>Support duty-free fast Shipping for these 26 countries:</strong></p>
+<p style="font-size: 12px; font-weight: 400;">Denmark, Spain, Ireland, Netherlands, Portugal, Lithuania, Hungary, Slovakia, Romania, Finland, Bulgaria, Croatia, Austria, Italy, Sweden, France, Czech Republic, Belgium, Poland, Estonia, Greece, Germany, Luxembourg, Latvia, Slovenia,&nbsp;United Kingdom.</p>
+<p style="font-size: 12px; font-weight: 400;">*Europe&nbsp;stock ,Duty Free Fast Shipping.Offer After Sale Service in&nbsp;Europe.</p>
+<p style="font-size: 12px; font-weight: 400;">For safety reason, please do not ride on rainy days, and not soak the electric scooter. Please&nbsp;<a style="COLOR: #ff0000;" target="_blank" href="http://blog.geekbuying.com/2019/08/kugoo-safety">click here</a> to know the safety tips.</p>
+
+<h2>Highlights</h2>
+<p><strong>8.5 Inch Pneumatic Tire</strong></p>
+<p>8.5 Inch pneumatic tire, taking into account the shock absorption and safety, riding more comfortable.</p>
+<p><strong>3 Speed Modes</strong></p>
+<p>You control the speed with one key according to the different road surface conditions, which makes driving more comfortable and riding more security.</p>
+<p><strong>High Capacity Battery</strong></p>
+<p>It has a 7.5Ah, 18650 high-capacity lithium battery which allows for a longer range and higher speeds.</p>
+<p><strong>350W Motor</strong></p>
+<p>The strong driving force, 350W motor, Max 30km running distance.</p>
+<p><strong>Brake System</strong></p>
+<p>Equipped with the double brake system, front electric brake, the rear wheel adopts a mechanical disc brake, the braking distance is as short as 4 meters, and the riding is safer.</p>
+<p><strong>Quick Folding</strong></p>
+<p>3 seconds fast-folding design, stable and convenient.</p>
+<p><strong>Aviation Grade Aluminum Frame</strong></p>
+<p>Aviation grade aluminum frame, the perfect balance between strength and weight.</p>	
+	<div class="pro_dec clearfix" style="padding-top: 30px;">
+		<div class="level_a posr_w clearfix">
+				<div class="level_a_bg bac_cover"></div>
+				<dl class="level_a_txt">
+					<dd class="level_a_txt1">Endurance</dd>
+					<dd class="level_a_txt2">Max Speed</dd>
+					<dd class="level_a_txt3">Max Slope</dd>
+					<dd class="level_a_txt4">Weight Capacity</dd>
+				</dl>
+		</div>
+		<div class="level_b posr_w clearfix">
+				<div class="level_b_bg bac_cover"></div>
+				<div class="level_b_txt">
+					<span class="span_txt">A safe and quick stop</span>
+					<p class="p_txt">Dual mechanical braking system allows a smoother riding experience.</p> 
+				</div>
+				<dl class="level_b_title">
+					<dd class="level_b_title1">Disc brake</dd>
+					<dd class="level_b_title2">Electric brake</dd>
+					<dd class="level_b_title3">Foot brake</dd>
+				</dl>
+		</div>
+		<div class="level_c posr_w clearfix">
+			<div class="level_c_bg bac_cover"></div>
+			<div class="level_c_txt">
+				<span class="span_txt">Blinking taillights for braking</span>
+			</div>
+		</div>
+		<div class="level_d posr_w clearfix">
+			<div class="level_d_bg bac_cover"></div>
+			<div class="level_d_txt">
+				<span class="span_txt">Enhanced safety</span>
+				<p class="p_txt">Ultra bright strain-free headlight provides safer night rides without affecting passerby.</p>
+			</div>
+		</div>
+		<div class="level_e posr_w clearfix">
+			<div class="level_e_bg bac_cover"></div>
+			<div class="level_e_txt">
+				<span class="span_txt">Tires built to last</span>
+				<p class="p_txt">Distinctive tread pattern design offers outstanding grip and stability.</p>
+			</div>
+			<dl class="level_e_title">
+				<dd class="level_e_title1">Grip and control</dd>
+				<dd class="level_e_title2">Wet traction</dd>
+			</dl>			
+		</div>
+		<div class="level_f posr_w clearfix">
+			<div class="level_f_bg bac_cover"></div>
+			<div class="level_f_txt">
+				<span class="span_txt">Advanced LED display</span>
+				<p class="p_txt">Anti-reflective LED display allows enhanced visibility during the day & night.</p>
+			</div>
+		</div>	
+		<div class="level_g posr_w clearfix">
+			<div class="level_g_bg bac_cover"></div>
+			<div class="level_g_txt">
+				<span class="span_txt">Maximum rider comfort</span>
+				<p class="p_txt">Front shock absorber for a smoother, more refined ride on uneven surfaces.</p>
+			</div>
+		</div>
+		<div class="level_h posr_w clearfix">
+			<div class="level_h_bg bac_cover"></div>
+			<div class="level_h_txt">
+				<span class="span_txt">A smooth ride around</span>
+				<p class="p_txt">Air tires design provides good damping effect for solid and smooth riding.</p>
+			</div>
+		</div>	
+		<div class="level_i posr_w clearfix">
+			<div class="level_i_bg bac_cover"></div>
+			<div class="level_i_txt">
+				<span class="span_txt">Ultra sturdy frame design</span>
+				<p class="p_txt">High-density aluminum and polymer make the scooter can support riders up to 120 kg.</p>
+			</div>
+			<div class="level_i_title">
+				<span>* The maximum load capacity of most other scooters is only 100kg.</span>
+				<p>Kugoo M2 Pro maximun load</p>
+			</div>
+ 		</div>	
+		<div class="level_j posr_w clearfix">
+			<div class="level_j_bg bac_cover"></div>
+			<div class="level_j_txt">
+				<span class="span_txt">Foldable</span>
+			</div>
+			<dl class="level_j_title">
+				<dd class="level_j_title1">First step</dd>
+				<dd class="level_j_title2">Second step</dd>
+			</dl>
+		</div>
+		<div class="level_k posr_w clearfix">
+			<div class="level_k_bg bac_cover"></div>
+			<div class="level_k_txt">
+				<span class="span_txt">Superior performance</span>
+				<p class="p_txt">An upgraded high-quality 350W motor provides stable and strong power easily climbs slopes of up to 15°.</p>
+			</div>
+		</div>
+		<div class="level_l posr_w clearfix">
+			<div class="level_l_bg bac_cover"></div>
+			<div class="level_l_txt">
+				<span class="span_txt">Long range battery life</span>
+				<p class="p_txt">Ultra-high capacity 7.5 Ah lithium battery with a maximum 30 Km travel range.</p>
+			</div>
+		</div>	
+  		<div class="level_o posr_w clearfix">
+			<div class="level_o_bg bac_cover"></div>
+			<div class="level_o_txt">
+				<span class="span_txt">Dedicated App</span>
+				<p class="p_txt">Download the app and pair your Kugoo M2 Pro E-scooter via Bluetooth. It allows you to access controls on your fingertips.</p>
+			</div>
+			<div class="level_o_table bac_cover"></div>
+			<div class="level_o_txt2">
+				<span class="span_txt">Download the " Kugoo " app </span>
+				<p>from the App Store or Google Play</p>
+			</div>
+			<a class="app_kugoo download_android"  href="http://www.kugoo-app.com/KUGOO/download.html" target="_blank">kugoo</a>
+			<a class="app_kugoo download_ioskugoo" href="https://apps.apple.com/us/app/kugoo/id1475045997" target="_blank">kugoo</a>
+			<div class="level_o_app bac_cover">
+				<a class="level_o_app_a kugoo_android"  href="http://www.kugoo-app.com/KUGOO/download.html" target="_blank">kugoo</a>
+				<a class="level_o_app_a kugoo_ioskugoo" href="https://apps.apple.com/us/app/kugoo/id1475045997" target="_blank">kugoo</a>
+			</div>
+			<div class="level_o_mobile bac_cover"></div>
+		</div>		
+  	</div>
+<h2>Specification</h2>
+<table border="1" cellpadding="5" cellspacing="0" class="jbEidtTable" style="font-family: &quot;Times New Roman&quot;; border-collapse: collapse;">
+    <tbody>
+        <tr>
+            <td><strong><span style="font-size: 13px;">General</span></strong></td>
+            <td>
+            <p><span style="font-size: 14px;">Brand:&nbsp;KUGOO<br />
+            Type:&nbsp;&nbsp;Electric Scooter<br />
+            Model: M2 PRO<br />
+            Color: Black</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong><span style="font-size: 13px;">Specification</span></strong></td>
+            <td>
+            <p><span style="font-size: 14px;">Maximum&nbsp;Load: 120kg<br />
+            Maximum Speed: 25km/h<br />
+            Speed Mode: 15km/h, 20km/h, 25km/h</span><br />
+            <span style="font-family: &quot;open sans&quot;, sans-serif; font-size: 14px;">Permissible Gradient</span><span style="font-size: 14px;">: &le;15&deg;<br />
+            Maximum&nbsp;Mileage: &le;30km<br />
+            Battery Voltage: 36V<br />
+            Battery Type: 18650 lithium<br />
+            Battery Capacity: 7.5Ah<br />
+            Motor Type: Brushless DC motor<br />
+            Motor Power: 36V/350W<br />
+            Motor Maximum&nbsp;Speed: 680-730RPM<br />
+            Motor Rated Voltage: 36V<br />
+            Charger Voltage: 220V, 50-60HZ<br />
+            Charging Time: 4-6h<br />
+            Brake Distance: 4-5m<br />
+            Tire: 8.5 inches&nbsp;Air tire</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong><span style="font-size: 13px;">Weight &amp; Size</span></strong></td>
+            <td>
+            <p><span style="font-size: 14px;">Product Weight:&nbsp;15.6kg<br />
+            Package Weight:&nbsp;18.6kg<br />
+            Product Size(L x W x H):&nbsp;1115 x 1115 x 515mm<br />
+            Package Size(L x W x H):&nbsp;1125 x 240 x 470mm</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td><strong><span style="font-size: 13px;">Package Contents</span></strong></td>
+            <td>
+            <p><span style="font-size: 14px;">1 x Electric Scooter<br />
+            1 x&nbsp;Charger&nbsp;</span></p>
+            <p><span style="font-size: 14px;">1 x Toolkit</span>(2*hexagonal wrench,1*screwdriver)<br />
+            <span style="font-size: 14px;">1 x User Manual</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>  	
+</body>
+</html>
